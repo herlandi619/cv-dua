@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cv-dua/static/css/main.8a07edcb.css",
+    "main.js": "/cv-dua/static/js/main.3e1e0a71.js",
+    "static/js/787.9b8e5359.chunk.js": "/cv-dua/static/js/787.9b8e5359.chunk.js",
+    "static/media/5.jpg": "/cv-dua/static/media/5.328116f287680712ed95.jpg",
+    "static/media/6.jpg": "/cv-dua/static/media/6.568ea80afb4d4cebc3c1.jpg",
+    "static/media/4.jpg": "/cv-dua/static/media/4.0ee4311610e7c942b47e.jpg",
+    "static/media/3.jfif": "/cv-dua/static/media/3.47695829bbd787683703.jfif",
+    "static/media/7.png": "/cv-dua/static/media/7.7f684ce76d9e5c37d9dc.png",
+    "static/media/1.jpg": "/cv-dua/static/media/1.8ac1eb37937449f77ccb.jpg",
+    "static/media/2.jfif": "/cv-dua/static/media/2.7df397855d8ccf703488.jfif",
+    "static/media/design.png": "/cv-dua/static/media/design.9e6ea8290691c7efe827.png",
+    "static/media/consulting.png": "/cv-dua/static/media/consulting.2dc7284300c84181539e.png",
+    "static/media/code.png": "/cv-dua/static/media/code.f4f54b48494bb8e30d1a.png",
+    "index.html": "/cv-dua/index.html",
+    "main.8a07edcb.css.map": "/cv-dua/static/css/main.8a07edcb.css.map",
+    "main.3e1e0a71.js.map": "/cv-dua/static/js/main.3e1e0a71.js.map",
+    "787.9b8e5359.chunk.js.map": "/cv-dua/static/js/787.9b8e5359.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a07edcb.css",
+    "static/js/main.3e1e0a71.js"
+  ]
+}
