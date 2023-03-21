@@ -145,27 +145,33 @@ function App() {
 
 
           <div className='mt-5 grid gap-10  lg:grid-cols-3 text-md'>
-            <div className='grid gap-2 shadow-lg rounded-md overflow-hidden p-5 hover:scale-110 duration-300 ease-in-out cursor-pointer'>
+            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={greennbull} alt="greenbull" />
-                <p>Contoh web <span className='text-teal-500'>antivirus</span>  yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop</p>
-                <div className='mt-3'>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/greenbull/#" target={'_blank'} >Selengkapnya Klik disini</a>
+                <div className='p-5'>
+                  <p>Contoh web <span className='text-teal-500'>antivirus</span>  yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop</p>
+                  <div className='mt-3'>
+                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/greenbull/#" target={'_blank'} >Selengkapnya Klik disini</a>
+                  </div>
                 </div>
             </div>
 
-            <div className='grid gap-2 shadow-lg rounded-md overflow-hidden p-5 hover:scale-110 duration-300 ease-in-out cursor-pointer'>
+            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={kasir} alt="kasir" />
-                <p>Contoh web <span className='text-teal-500'>Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan  CRUD menggunakan Fake API </p>
-                <div className='mt-3'>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/samurai-pos-x/" target={'_blank'}>Selengkapnya Klik disini</a>
+                <div className='p-5'>
+                  <p>Contoh web <span className='text-teal-500'>Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan  CRUD menggunakan Fake API </p>
+                  <div className='mt-3'>
+                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/samurai-pos-x/" target={'_blank'}>Selengkapnya Klik disini</a>
+                  </div>
                 </div>
             </div>
 
-            <div className='grid gap-2 shadow-lg rounded-md overflow-hidden p-5 hover:scale-110 duration-300 ease-in-out cursor-pointer'>
-                <img src={sneakers} alt="sneakers" />
-                <p>Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API dengan tambahan Dark mode dan Light mode </p>
-                <div className='mt-3'>
-                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/sneakers/" target={'_blank'}>Selengkapnya Klik disini</a>
+            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
+                <img src={sneakers} alt="sneakers"  />
+                <div className='p-5'>
+                  <p>Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API dengan tambahan Dark mode dan Light mode </p>
+                  <div className='mt-3'>
+                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/sneakers/" target={'_blank'}>Selengkapnya Klik disini</a>
+                  </div>
                 </div>
             </div>
           </div>
