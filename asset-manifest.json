@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-dua/static/css/main.2534d269.css",
-    "main.js": "/cv-dua/static/js/main.519d4407.js",
+    "main.css": "/cv-dua/static/css/main.7f332d14.css",
+    "main.js": "/cv-dua/static/js/main.5476e1a9.js",
     "static/js/787.9b8e5359.chunk.js": "/cv-dua/static/js/787.9b8e5359.chunk.js",
     "static/media/sneakers.png": "/cv-dua/static/media/sneakers.8a3c84ba339359d6d7d2.png",
     "static/media/5.jpg": "/cv-dua/static/media/5.328116f287680712ed95.jpg",
@@ -17,12 +17,12 @@
     "static/media/consulting.png": "/cv-dua/static/media/consulting.2dc7284300c84181539e.png",
     "static/media/code.png": "/cv-dua/static/media/code.f4f54b48494bb8e30d1a.png",
     "index.html": "/cv-dua/index.html",
-    "main.2534d269.css.map": "/cv-dua/static/css/main.2534d269.css.map",
-    "main.519d4407.js.map": "/cv-dua/static/js/main.519d4407.js.map",
+    "main.7f332d14.css.map": "/cv-dua/static/css/main.7f332d14.css.map",
+    "main.5476e1a9.js.map": "/cv-dua/static/js/main.5476e1a9.js.map",
     "787.9b8e5359.chunk.js.map": "/cv-dua/static/js/787.9b8e5359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2534d269.css",
-    "static/js/main.519d4407.js"
+    "static/css/main.7f332d14.css",
+    "static/js/main.5476e1a9.js"
   ]
 }
