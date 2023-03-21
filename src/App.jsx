@@ -14,6 +14,10 @@ import web3 from "./3.jfif";
 import web4 from "./4.jpg";
 import web5 from "./5.jpg";
 import web6 from "./6.jpg";
+import greennbull from "./greenbull.png"
+import sneakers from "./sneakers.png"
+import kasir from "./kasir.png"
+
 
 
 
@@ -114,9 +118,60 @@ function App() {
                 <h4 className='py-4 text-teal-600'>Software yang saya gunakan</h4>
                 <p className='text-gray-800 py-1'>Bootstrap Front-end Framework</p>
                 <p className='text-gray-800 py-1'>Tailwind-Css Front-end Framework</p>
+                <p className='text-gray-800 py-1'>Library React JS</p>
                 
               </div>
             </div>
+        </section>
+
+        <section>
+        <div className='flex mx-auto lg:gap-10 lg:mt-16'>
+
+          <div className='lg:basis-1/3 lg:my-36'>
+            <hr className='mt-10' />
+          </div>
+
+            <div className='leading-8'>
+              <h3 className='text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28 '>Hasil Project React JS</h3>
+              <p className='dark:text-slate-200'>Selain itu saya sangat suka bermain dan membuat project web statis menggunakan React JS dengan bantuan framework Tailwind-CSS.</p>
+            </div>
+
+
+          <div className='lg:basis-1/3 lg:my-36'>
+            <hr className='mt-10' />
+          </div>
+
+          </div>
+
+
+          <div className='mt-5 grid gap-10  lg:grid-cols-3 text-md'>
+            <div className='grid gap-2 shadow-lg rounded-md overflow-hidden p-5 hover:scale-110 duration-300 ease-in-out cursor-pointer'>
+                <img src={greennbull} alt="greenbull" />
+                <p>Contoh web <span className='text-teal-500'>antivirus</span>  yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop</p>
+                <div className='mt-3'>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/greenbull/#" target={'_blank'} >Selengkapnya Klik disini</a>
+                </div>
+            </div>
+
+            <div className='grid gap-2 shadow-lg rounded-md overflow-hidden p-5 hover:scale-110 duration-300 ease-in-out cursor-pointer'>
+                <img src={kasir} alt="kasir" />
+                <p>Contoh web <span className='text-teal-500'>Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan  CRUD menggunakan Fake API </p>
+                <div className='mt-3'>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/samurai-pos-x/" target={'_blank'}>Selengkapnya Klik disini</a>
+                </div>
+            </div>
+
+            <div className='grid gap-2 shadow-lg rounded-md overflow-hidden p-5 hover:scale-110 duration-300 ease-in-out cursor-pointer'>
+                <img src={sneakers} alt="sneakers" />
+                <p>Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API dengan tambahan Dark mode dan Light mode </p>
+                <div className='mt-3'>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/sneakers/" target={'_blank'}>Selengkapnya Klik disini</a>
+                </div>
+            </div>
+          </div>
+
+
+
         </section>
 
 
@@ -205,7 +260,7 @@ function App() {
             <div className='text-center pt-6 basis-1/2 md:text-center lg:text-center'>
               <p className='font-bold dark:text-slate-200'>Alamat / Kontak</p>
               <h2 className='text-4xl text-teal-500'>Hubungi Kami :</h2>
-              <div className='mt-2'>
+              <div className='grid gap-1 mt-3 text-sm'>
                 <p className='dark:text-slate-200'>herlandi619@gmail.com</p>
                 <p className='dark:text-slate-200'>Pondok Pucung Kec.Pondok Aren</p>
                 <p className='dark:text-slate-200'>Tangerang Selatan</p>
@@ -215,7 +270,7 @@ function App() {
             
           </div>
 
-          <p className='text-center dark:text-slate-200'>Copyright <span className='font-bold text-teal-500 '>Renold Herlandi</span> || ReacJs + Tailwind-CSS</p>
+          <p className='text-center text-xs dark:text-slate-200'>Copyright <span className='font-bold text-teal-500 '>Renold Herlandi</span> || ReacJs + Tailwind-CSS</p>
         </section>
 
         </main>
