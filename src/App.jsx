@@ -125,7 +125,7 @@ function App() {
         </section>
 
         <section>
-        <div className='flex mx-auto lg:gap-10 lg:mt-16'>
+        <div className='flex mx-auto lg:gap-10 lg:mt-16 '>
 
           <div className='lg:basis-1/3 lg:my-36'>
             <hr className='mt-10' />
@@ -145,34 +145,37 @@ function App() {
 
 
           <div className='mt-5 grid gap-10  lg:grid-cols-3 text-md'>
-            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
+            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer   dark:bg-slate-100'>
                 <img src={greennbull} alt="greenbull" />
                 <div className='p-5'>
-                  <p>Contoh web <span className='text-teal-500'>antivirus</span>  yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop</p>
-                  <div className='mt-3'>
-                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/greenbull/#" target={'_blank'} >Selengkapnya Klik disini</a>
-                  </div>
+                  <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>antivirus</span>  yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop</p>
+                 
                 </div>
+                <div className='mt-3'>
+                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300 relative right-3' href="https://herlandi619.github.io/greenbull/#" target={'_blank'} >Selengkapnya Klik disini</a>
+                  </div>
             </div>
 
             <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={kasir} alt="kasir" />
                 <div className='p-5'>
-                  <p>Contoh web <span className='text-teal-500'>Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan  CRUD menggunakan Fake API </p>
-                  <div className='mt-3'>
-                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/samurai-pos-x/" target={'_blank'}>Selengkapnya Klik disini</a>
-                  </div>
+                  <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan  CRUD menggunakan Fake API </p>
+                 
                 </div>
+                <div className='mt-3'>
+                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out relative right-3 duration-300' href="https://herlandi619.github.io/samurai-pos-x/" target={'_blank'}>Selengkapnya Klik disini</a>
+                  </div>
             </div>
 
             <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={sneakers} alt="sneakers"  />
                 <div className='p-5'>
-                  <p>Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API dengan tambahan Dark mode dan Light mode </p>
-                  <div className='mt-3'>
-                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/sneakers/" target={'_blank'}>Selengkapnya Klik disini</a>
-                  </div>
+                  <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API dengan tambahan Dark mode dan Light mode </p>
+                  
                 </div>
+                <div className='mt-3 '>
+                    <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md relative right-3  hover:opacity-80 ease-in-out duration-300' href="https://herlandi619.github.io/sneakers/" target={'_blank'}>Selengkapnya Klik disini</a>
+                  </div>
             </div>
           </div>
 
