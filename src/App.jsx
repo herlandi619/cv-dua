@@ -170,7 +170,7 @@ function App() {
             <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={sneakers} alt="sneakers"  />
                 <div className='p-5'>
-                  <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API dengan tambahan Dark mode dan Light mode </p>
+                  <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan PHP dasar dengan bantuan MYSQL dengan tambahan Dark mode dan Light mode </p>
                   
                 </div>
                 <div className='mt-3 '>
