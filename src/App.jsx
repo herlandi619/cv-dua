@@ -288,7 +288,7 @@ function App() {
             
           </div>
 
-          <p data-aos="fade-left" className='text-center text-xs dark:text-slate-200'>Copyright <span className='font-bold text-teal-500 '>Renold Herlandi</span> || ReacJs + Tailwind-CSS</p>
+          <p  className='text-center text-xs dark:text-slate-200'>Copyright <span className='font-bold text-teal-500 '>Renold Herlandi</span> || ReacJs + Tailwind-CSS</p>
         </section>
 
         </main>
