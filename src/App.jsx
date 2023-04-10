@@ -1,4 +1,5 @@
 import React from 'react';
+import AOS from 'aos';
 import { useState } from 'react';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiOutlineWhatsApp, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
@@ -26,6 +27,11 @@ function App() {
 
   const [darkMode , setDarkMode] = useState(false);
 
+    AOS.init({
+        duration: 1000
+      });
+
+
   return (
 
     <div className={darkMode ? "dark" : ""}>
@@ -48,22 +54,24 @@ function App() {
             <div className='lg:flex'>
 
                 <div className='text-center p-10'>
-                  <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Renold Herlandi</h2>
-                  <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Multimedia || Designer.</h3>
-                  <p className='text-md py-5 leading-7 mx-auto text-gray-800 md:text-xl md:max-w-xl dark:text-slate-100'>Hiii... selamat datang diportfolio saya yang dimana saya ingin memberitahukan kemampuan ataupun keterampilan saya dibidang berbasis program ataupun non-program.</p>
+                  <h2 data-aos="fade-right" className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Renold Herlandi</h2>
+                  
+                  <h3 data-aos="fade-left"  className='text-2xl py-2 md:text-3xl dark:text-white'>Multimedia || Designer.</h3>
+                  
+                  <p data-aos="fade-right" className='text-md py-5 leading-7 mx-auto text-gray-800 md:text-xl md:max-w-xl dark:text-slate-100'>Hiii... selamat datang diportfolio saya yang dimana saya ingin memberitahukan kemampuan ataupun keterampilan saya dibidang berbasis program ataupun non-program.</p>
 
                   <div className='text-5xl flex justify-center gap-16 py-2 text-gray-800 md:text-6xl'>
 
-                  <a href="https://api.whatsapp.com/send?phone=6289626033902"><AiOutlineWhatsApp className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
+                  <a data-aos="fade-right" href="https://api.whatsapp.com/send?phone=6289626033902"><AiOutlineWhatsApp className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
 
-                  <a href="https://www.instagram.com/hi_hr_hr/"><AiFillInstagram className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
+                  <a data-aos="fade-up" href="https://www.instagram.com/hi_hr_hr/"><AiFillInstagram className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
 
-                  <a href="https://github.com/herlandi619"><AiFillGithub className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /> </a>
+                  <a data-aos="fade-left" href="https://github.com/herlandi619"><AiFillGithub className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /> </a>
                 </div>
 
                 </div>
 
-                <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden hover:scale-105 ease-in-out duration-300 md:w-96 md:h-96 lg:-my-1 lg:-mx-5 '>
+                <div data-aos="flip-left" className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden hover:scale-105 ease-in-out duration-300 md:w-96 md:h-96 lg:-my-1 lg:-mx-5 '>
                   <img src={pp} layout="fill" objectFit="cover" className='pt-10 pl-10 md:pl-16 md:pt-24 hover:scale-110 ease-in-out duration-300' />
                 </div>
 
@@ -80,7 +88,7 @@ function App() {
                   <hr />
                 </div>
 
-                  <div className='my-10'>
+                  <div data-aos="zoom-in" className='my-10'>
                     <h3 className='text-teal-500 md:text-center lg:text-center text-3xl py-1'>Selain Itu.</h3>
                     <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-100'>saya bertanggung jawab dan <span className='text-teal-500'>handal</span>  dalam mengerjakan tugas-tugas dan mampu bekerja dengan <span className='text-teal-500'>baik</span> atas inisiatif saya sendiri ataupun dalam tim.</p>
                   </div>
@@ -91,7 +99,8 @@ function App() {
             </div>
 
             <div className='lg:flex gap-10 '>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
+
+              <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
                 <img src={code} width={100} height="100" className='mx-auto hover:scale-125 ease-in-out duration-300' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Kemampuan</h3>
                 <p className='py-2'>Menguasai Microsoft Office </p>
@@ -101,7 +110,7 @@ function App() {
                 <p className='text-gray-800 py-1'>Microsoft Power Point</p>
               </div>
 
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
+              <div data-aos="fade-right" className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
                 <img src={consulting} width={100} height="100" className='mx-auto hover:scale-125 ease-in-out duration-300' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Kemampuan</h3>
                 <p className='py-2'>Membuat Desain Software Dan Video Editor</p>
@@ -111,7 +120,7 @@ function App() {
                 <p className='text-gray-800 py-1'>Wonder-Share Filmora Video Editor</p>
               </div>
 
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
+              <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
                 <img src={design} width={100} height="100" className='mx-auto hover:scale-125 ease-in-out duration-300' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Kemampuan</h3>
                 <p className='py-2'>Menguasai Dasar Desain Front-End Frame work</p>
@@ -131,7 +140,7 @@ function App() {
             <hr className='mt-10' />
           </div>
 
-            <div className='leading-8'>
+            <div data-aos="zoom-in" className='leading-8'>
               <h3 className='text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28 '>Hasil Project React JS</h3>
               <p className='dark:text-slate-200'>Selain itu saya sangat suka bermain dan membuat project web statis menggunakan React JS dengan bantuan framework Tailwind-CSS.</p>
             </div>
@@ -144,7 +153,7 @@ function App() {
           </div>
 
 
-          <div className='mt-5 grid gap-10  lg:grid-cols-3 text-md'>
+          <div data-aos="zoom-in-left" className='mt-5 grid gap-10  lg:grid-cols-3 text-md'>
             <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer   dark:bg-slate-100'>
                 <img src={greennbull} alt="greenbull" />
                 <div className='p-5'>
@@ -156,7 +165,7 @@ function App() {
                   </div>
             </div>
 
-            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
+            <div data-aos="zoom-in-right" className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={kasir} alt="kasir" />
                 <div className='p-5'>
                   <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan  CRUD menggunakan Fake API </p>
@@ -167,7 +176,7 @@ function App() {
                   </div>
             </div>
 
-            <div className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
+            <div data-aos="zoom-in-left" className='grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100'>
                 <img src={sneakers} alt="sneakers"  />
                 <div className='p-5'>
                   <p className="h-32 overflow-auto">Contoh web <span className='text-teal-500'>Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan PHP dasar dengan bantuan MYSQL dengan tambahan Dark mode dan Light mode </p>
@@ -193,7 +202,7 @@ function App() {
                   <hr className='mt-20' />
                 </div>
 
-                <div className='leading-8'>
+                <div data-aos="zoom-in" className='leading-8'>
                 <h3 className='text-3xl py-1 text-teal-500 md:text-center lg:text-center mt-28  lg:text-center'>Tentang Saya</h3>
                 <p className='dark:text-slate-200'>nama saya <span className='text-teal-600'>Renold Herlandi</span>, saat ini yang sudah menempuh pendidikan SMK, Yang dimana saya memiliki <span className='text-teal-600'>motivasi</span> besar utuk mendapatkan <span className='text-teal-600'>impian</span> dan mempelajari pengetahuan baru.</p>
                 <p className='dark:text-slate-200 my-5'>dan selain itu saya <span className='text-teal-600'>Bertanggung Jawab</span> dan handal dalam mengerjakan tugas-tugas dan mampu bekerja dengan baik atas <span className='text-teal-600'>Inisiatif</span> saya sendiri ataupun dalam tim.</p>
@@ -212,7 +221,7 @@ function App() {
                   <hr className='mt-10' />
                 </div>
 
-                <div className='leading-8'>
+                <div data-aos="zoom-in" className='leading-8'>
                 <h3 className='text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28  lg:text-center'>Manipulasi Photoshop</h3>
                 <p className='dark:text-slate-200'>Selain itu saya sangat suka bermain dengan memanipulasi gambar-gambar yang bersifat random atau fantasy.</p>
                 </div>
@@ -226,27 +235,27 @@ function App() {
 
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap lg:mt-10'>
 
-              <div className="basis-1/3 flex-1">
+              <div data-aos="flip-left" className="basis-1/3 flex-1">
                 <img src={web1} className="rounded-lg object-cover lg:w-full hover:scale-110 ease-in-out duration-300 cursor-pointer" />
               </div>
 
-              <div className="basis-1/3 flex-1">
+              <div data-aos="flip-right" className="basis-1/3 flex-1">
                 <img src={web2} className="rounded-lg object-cover lg:w-full hover:scale-110 ease-in-out duration-300 cursor-pointer" />
               </div>
 
-              <div className="basis-1/3 flex-1">
+              <div data-aos="flip-left" className="basis-1/3 flex-1">
                 <img src={web3} className="rounded-lg object-cover hover:scale-110 ease-in-out duration-300 cursor-pointer" />
               </div>
 
-              <div className="basis-1/3 flex-1">
+              <div data-aos="flip-right" className="basis-1/3 flex-1">
                 <img src={web4} className="rounded-lg object-cover lg:-mt-28 hover:scale-110 ease-in-out duration-300 cursor-pointer" />
               </div>
 
-              <div className="basis-1/3 flex-1">
+              <div data-aos="flip-left" className="basis-1/3 flex-1">
                 <img src={web5} className="rounded-lg object-cover hover:scale-110 ease-in-out duration-300 cursor-pointer" />
               </div>
 
-              <div className="basis-1/3 flex-1">
+              <div data-aos="flip-right" className="basis-1/3 flex-1">
                 <img src={web6} className="rounded-lg object-cover lg:-mt-72 hover:scale-110 ease-in-out duration-300 cursor-pointer" />
               </div>
 
@@ -259,14 +268,14 @@ function App() {
         <hr />
           <div className='mt-10 pb-10 md:flex lg:flex'>
             <div className='text-5xl basis-1/2 flex justify-center gap-16 py-2 text-gray-800 md:text-6xl'>
-              <a href="https://api.whatsapp.com/send?phone=6289626033902"><AiOutlineWhatsApp className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
+              <a data-aos="fade-right" href="https://api.whatsapp.com/send?phone=6289626033902"><AiOutlineWhatsApp className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
 
-              <a href="https://www.instagram.com/hi_hr_hr/"><AiFillInstagram className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
+              <a data-aos="fade-down" href="https://www.instagram.com/hi_hr_hr/"><AiFillInstagram className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /></a>
 
-              <a href="https://github.com/herlandi619"><AiFillGithub className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /> </a>
+              <a data-aos="fade-left" href="https://github.com/herlandi619"><AiFillGithub className='text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer' /> </a>
             </div>
 
-            <div className='text-center pt-6 basis-1/2 md:text-center lg:text-center'>
+            <div data-aos="fade-up" className='text-center pt-6 basis-1/2 md:text-center lg:text-center'>
               <p className='font-bold dark:text-slate-200'>Alamat / Kontak</p>
               <h2 className='text-4xl text-teal-500'>Hubungi Kami :</h2>
               <div className='grid gap-1 mt-3 text-sm'>
@@ -279,7 +288,7 @@ function App() {
             
           </div>
 
-          <p className='text-center text-xs dark:text-slate-200'>Copyright <span className='font-bold text-teal-500 '>Renold Herlandi</span> || ReacJs + Tailwind-CSS</p>
+          <p data-aos="fade-left" className='text-center text-xs dark:text-slate-200'>Copyright <span className='font-bold text-teal-500 '>Renold Herlandi</span> || ReacJs + Tailwind-CSS</p>
         </section>
 
         </main>
