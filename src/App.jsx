@@ -45,7 +45,8 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:opacity-80 ease-in-out duration-300"
-                  href="https://drive.google.com/file/d/1uDnyIqYKNKYwUJxsJeL_xyRFY7crhM0u/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1uEvYMEdAI9077twMvSnHNd-_wOIscF06/view?usp=sharing"
+                  target="_blank"
                 >
                   Resume
                 </a>
@@ -64,19 +65,19 @@ function App() {
               </h3>
 
               <p data-aos="fade-right" className="text-md py-5 leading-7 mx-auto text-gray-800 md:text-xl md:max-w-xl dark:text-slate-100">
-                Hiii... selamat datang diportfolio saya yang dimana saya ingin memberitahukan kemampuan ataupun keterampilan saya dibidang berbasis program ataupun non-program.
+                Hiii... Selamat datang diportfolio saya yang dimana saya ingin memberitahukan kemampuan ataupun keterampilan saya dibidang berbasis program ataupun non-program.
               </p>
 
               <div className="text-5xl flex justify-center gap-16 py-2 text-gray-800 md:text-6xl">
-                <a data-aos="fade-right" href="https://api.whatsapp.com/send?phone=6289626033902">
+                <a data-aos="fade-right" href="https://api.whatsapp.com/send?phone=6289626033902" target="_blank">
                   <AiOutlineWhatsApp className="text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer" />
                 </a>
 
-                <a data-aos="fade-up" href="https://www.instagram.com/hi_hr_hr/">
+                <a data-aos="fade-up" href="https://www.instagram.com/hi_hr_hr/" target="_blank">
                   <AiFillInstagram className="text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer" />
                 </a>
 
-                <a data-aos="fade-left" href="https://github.com/herlandi619">
+                <a data-aos="fade-left" href="https://github.com/herlandi619" target="_blank">
                   <AiFillGithub className="text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer" />{" "}
                 </a>
               </div>
@@ -89,7 +90,7 @@ function App() {
         </section>
 
         {/* //section2 */}
-        <section>
+        <section className="my-56">
           <div className="flex mx-auto lg:gap-5">
             <div className="lg:basis-1/3 lg:my-32">
               <hr />
@@ -108,7 +109,7 @@ function App() {
           </div>
 
           <div className="lg:flex gap-10 ">
-            <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
+            <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-5 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
               <img src={code} width={100} height="100" className="mx-auto hover:scale-125 ease-in-out duration-300" />
               <h3 className="text-lg font-medium pt-8 pb-2">Kemampuan</h3>
               <p className="py-2">Menguasai Microsoft Office </p>
@@ -118,7 +119,7 @@ function App() {
               <p className="text-gray-800 py-1">Microsoft Power Point</p>
             </div>
 
-            <div data-aos="fade-right" className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
+            <div data-aos="fade-right" className="text-center shadow-lg p-10 rounded-xl my-5 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
               <img src={consulting} width={100} height="100" className="mx-auto hover:scale-125 ease-in-out duration-300" />
               <h3 className="text-lg font-medium pt-8 pb-2">Kemampuan</h3>
               <p className="py-2">Membuat Desain Software Dan Video Editor</p>
@@ -128,14 +129,14 @@ function App() {
               <p className="text-gray-800 py-1">Wonder-Share Filmora Video Editor</p>
             </div>
 
-            <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
+            <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-5 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
               <img src={design} width={100} height="100" className="mx-auto hover:scale-125 ease-in-out duration-300" />
               <h3 className="text-lg font-medium pt-8 pb-2">Kemampuan</h3>
               <p className="py-2">Menguasai Dasar Desain Front-End & Back-End Framework</p>
               <h4 className="py-4 text-teal-600">Software yang saya gunakan</h4>
               <p className="text-gray-800 py-1">Bootstrap Front-end Framework</p>
               <p className="text-gray-800 py-1">Tailwind-Css Front-end Framework</p>
-              <p className="text-gray-800 py-1">Laravel 8</p>
+              <p className="text-gray-800 py-1">Laravel Framework</p>
             </div>
           </div>
         </section>
@@ -206,11 +207,11 @@ function App() {
         <section className="lg:-mt-36">
           <div className="flex mx-auto lg:gap-10 lg:mt-36">
             <div className="lg:basis-1/3 lg:my-36">
-              <hr className="mt-20" />
+              <hr className="mt-48" />
             </div>
 
             <div data-aos="zoom-in" className="leading-8">
-              <h3 className="text-3xl py-1 text-teal-500 md:text-center lg:text-center mt-28  lg:text-center">Tentang Saya</h3>
+              <h3 className="text-3xl py-1 text-teal-500 md:text-center mt-52  lg:text-center">Tentang Saya</h3>
               <p className="dark:text-slate-200">
                 nama saya <span className="text-teal-600">Renold Herlandi</span>, saat ini yang sudah menempuh pendidikan SMK, Yang dimana saya memiliki <span className="text-teal-600">motivasi</span> besar utuk mendapatkan{" "}
                 <span className="text-teal-600">impian</span> dan mempelajari pengetahuan baru.
@@ -222,7 +223,7 @@ function App() {
             </div>
 
             <div className="lg:basis-1/3 lg:my-36">
-              <hr className="mt-20" />
+              <hr className="mt-48" />
             </div>
           </div>
 
@@ -232,7 +233,7 @@ function App() {
             </div>
 
             <div data-aos="zoom-in" className="leading-8">
-              <h3 className="text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28  lg:text-center">Manipulasi Photoshop</h3>
+              <h3 className="text-3xl text-teal-500 py-1 md:text-center mt-28  lg:text-center">Manipulasi Photoshop</h3>
               <p className="dark:text-slate-200">Selain itu saya sangat suka bermain dengan memanipulasi gambar-gambar yang bersifat random atau fantasy.</p>
             </div>
 
@@ -272,15 +273,15 @@ function App() {
           <hr />
           <div className="mt-10 pb-10 md:flex lg:flex">
             <div className="text-5xl basis-1/2 flex justify-center gap-16 py-2 text-gray-800 md:text-6xl">
-              <a data-aos="fade-right" href="https://api.whatsapp.com/send?phone=6289626033902">
+              <a data-aos="fade-right" href="https://api.whatsapp.com/send?phone=6289626033902" target="_blank">
                 <AiOutlineWhatsApp className="text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer" />
               </a>
 
-              <a data-aos="fade-down" href="https://www.instagram.com/hi_hr_hr/">
+              <a data-aos="fade-down" href="https://www.instagram.com/hi_hr_hr/" target="_blank">
                 <AiFillInstagram className="text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer" />
               </a>
 
-              <a data-aos="fade-left" href="https://github.com/herlandi619">
+              <a data-aos="fade-left" href="https://github.com/herlandi619" target="_blank">
                 <AiFillGithub className="text-gray-600 hover:scale-125 ease-in-out duration-300 hover:text-teal-500 dark:text-slate-100 dark:hover:text-teal-500 hover:cursor-pointer" />{" "}
               </a>
             </div>
