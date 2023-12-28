@@ -18,6 +18,7 @@ import web6 from "./6.jpg";
 import greennbull from "./greenbull.png";
 import sneakers from "./sneakers.png";
 import kasir from "./kasir.png";
+import goblog from "./goblog.png";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -162,7 +163,7 @@ function App() {
               <img src={greennbull} alt="greenbull" />
               <div className="p-5">
                 <p className="h-32 overflow-auto">
-                  Contoh web <span className="text-teal-500">antivirus</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop
+                  Contoh web single page <span className="text-teal-500">antivirus</span> yang dibuat menggunakan Tailwindcss full Responsiv Mobile, Tab dan Desktop
                 </p>
               </div>
               <div className="mt-3">
@@ -176,7 +177,7 @@ function App() {
               <img src={kasir} alt="kasir" />
               <div className="p-5">
                 <p className="h-32 overflow-auto">
-                  Contoh web <span className="text-teal-500">Kasir</span> yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan Fake API{" "}
+                  Contoh web company profile <span className="text-teal-500">Kasir</span> yang dibuat menggunakan Tailwindcss full Responsiv Mobile{" "}
                 </p>
               </div>
               <div className="mt-3">
@@ -190,12 +191,26 @@ function App() {
               <img src={sneakers} alt="sneakers" />
               <div className="p-5">
                 <p className="h-32 overflow-auto">
-                  Contoh web <span className="text-teal-500">Toko online</span> sepatu yang dibuat menggunakan React-JS + Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan PHP dasar dengan bantuan MYSQL
-                  dengan tambahan Dark mode dan Light mode{" "}
+                  Contoh web company profile <span className="text-teal-500">Toko online</span> sepatu yang dibuat menggunakan Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan PHP Native dan dengan database
+                  MYSQL dengan tambahan Dark mode dan Light mode{" "}
                 </p>
               </div>
               <div className="mt-3 ">
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md relative right-3  hover:opacity-80 ease-in-out duration-300" href="https://herlandi619.github.io/sneakers/" target={"_blank"}>
+                  Selengkapnya Klik disini
+                </a>
+              </div>
+            </div>
+
+            <div data-aos="zoom-in-right" className="grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100">
+              <img src={goblog} alt="kasir" />
+              <div className="p-5">
+                <p className="h-32 overflow-auto">
+                  Contoh Aplikasi Web <span className="text-teal-500">Blog</span> yang dibuat menggunakan Laravel 8 + Bootstrap dan menggunakan database Mysql dasar + CRUD{" "}
+                </p>
+              </div>
+              <div className="mt-3">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out relative right-3 duration-300" href="https://herland619.000webhostapp.com/" target={"_blank"}>
                   Selengkapnya Klik disini
                 </a>
               </div>
