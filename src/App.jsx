@@ -19,6 +19,7 @@ import greennbull from "./greenbull.png";
 import sneakers from "./sneakers.png";
 import kasir from "./kasir.png";
 import goblog from "./goblog.png";
+import livewire from "./livewire.png";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -211,6 +212,20 @@ function App() {
               </div>
               <div className="mt-3">
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out relative right-3 duration-300" href="https://herland619.000webhostapp.com/" target={"_blank"}>
+                  Selengkapnya Klik disini
+                </a>
+              </div>
+            </div>
+
+            <div data-aos="zoom-in-right" className="grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100">
+              <img src={livewire} alt="kasir" />
+              <div className="p-5">
+                <p className="h-32 overflow-auto">
+                  Contoh CRUD <span className="text-teal-500">LIVEWIRE</span> dasar yang dibuat menggunakan Laravel 8 + Bootstrap 5 dan Livewire 2, kemudian menggunakan database Mysql dasar + CRUD{" "}
+                </p>
+              </div>
+              <div className="mt-3">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out relative right-3 duration-300" href="https://herlandi619.000webhostapp.com/" target={"_blank"}>
                   Selengkapnya Klik disini
                 </a>
               </div>
