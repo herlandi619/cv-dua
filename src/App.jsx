@@ -47,7 +47,7 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:opacity-80 ease-in-out duration-300"
-                  href="https://drive.google.com/file/d/1uEvYMEdAI9077twMvSnHNd-_wOIscF06/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1i7umOyQnsjMkYiDz1zRiw41Hvy9e3-68/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
@@ -67,7 +67,7 @@ function App() {
               </h3>
 
               <p data-aos="fade-right" className="text-md py-5 leading-7 mx-auto text-gray-800 md:text-xl md:max-w-xl dark:text-slate-100">
-                Hiii... Selamat datang diportfolio saya yang dimana saya ingin memberitahukan kemampuan ataupun keterampilan saya dibidang berbasis program ataupun non-program.
+                Hello... Selamat datang diportfolio saya, yang dimana saya ingin memberitahukan kemampuan ataupun keterampilan saya dibidang berbasis program ataupun non-program.
               </p>
 
               <div className="text-5xl flex justify-center gap-16 py-2 text-gray-800 md:text-6xl">
@@ -101,7 +101,8 @@ function App() {
             <div data-aos="zoom-in" className="my-10">
               <h3 className="text-teal-500 md:text-center lg:text-center text-3xl py-1">Selain Itu.</h3>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-100">
-                saya bertanggung jawab dan <span className="text-teal-500">handal</span> dalam mengerjakan tugas-tugas dan mampu bekerja dengan <span className="text-teal-500">baik</span> atas inisiatif saya sendiri ataupun dalam tim.
+                Saya tipe orang yang bertanggung jawab dan <span className="text-teal-500">handal</span> dalam mengerjakan tugas-tugas dan mampu bekerja dengan <span className="text-teal-500">baik</span> atas inisiatif saya sendiri ataupun
+                dalam tim. Dan diantara lain soft skill saya dalam berikut:
               </p>
             </div>
 
@@ -113,8 +114,8 @@ function App() {
           <div className="lg:flex gap-10 ">
             <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-5 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
               <img src={code} width={100} height="100" className="mx-auto hover:scale-125 ease-in-out duration-300" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Kemampuan</h3>
-              <p className="py-2">Menguasai Microsoft Office </p>
+              <h3 className="text-lg font-medium pt-8 pb-2">Menguasai Microsoft Office</h3>
+              {/* <p className="py-2">Menguasai Microsoft Office </p> */}
               <h4 className="py-4 text-teal-600">Software yang saya gunakan</h4>
               <p className="text-gray-800 py-1">Microsoft Excel</p>
               <p className="text-gray-800 py-1">Microsoft Word</p>
@@ -123,8 +124,8 @@ function App() {
 
             <div data-aos="fade-right" className="text-center shadow-lg p-10 rounded-xl my-5 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
               <img src={consulting} width={100} height="100" className="mx-auto hover:scale-125 ease-in-out duration-300" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Kemampuan</h3>
-              <p className="py-2">Membuat Desain Software Dan Video Editor</p>
+              <h3 className="text-lg font-medium pt-8 pb-2">Membuat Desain Software Dan Video Editor</h3>
+              {/* <p className="py-2">Membuat Desain Software Dan Video Editor</p> */}
               <h4 className="py-4 text-teal-600">Software yang saya gunakan</h4>
               <p className="text-gray-800 py-1">Adobe Photoshop 2014</p>
               <p className="text-gray-800 py-1">Ace Movi Video Editor</p>
@@ -133,12 +134,13 @@ function App() {
 
             <div data-aos="fade-left" className="text-center shadow-lg p-10 rounded-xl my-5 hover:scale-110 ease-in-out duration-300 dark:bg-slate-100">
               <img src={design} width={100} height="100" className="mx-auto hover:scale-125 ease-in-out duration-300" />
-              <h3 className="text-lg font-medium pt-8 pb-2">Kemampuan</h3>
-              <p className="py-2">Menguasai Dasar Desain Front-End & Back-End Framework</p>
+              <h3 className="text-lg font-medium pt-8 pb-2">Menguasai Dasar Desain Web</h3>
+              {/* <p className="py-2">Menguasai Dasar Desain Web</p> */}
               <h4 className="py-4 text-teal-600">Software yang saya gunakan</h4>
-              <p className="text-gray-800 py-1">Bootstrap Front-end Framework</p>
-              <p className="text-gray-800 py-1">Tailwind-Css Front-end Framework</p>
-              <p className="text-gray-800 py-1">Laravel Framework</p>
+              <p className="text-gray-800 py-1">Bootstrap Framework CSS</p>
+              <p className="text-gray-800 py-1">Tailwind-Css Framework CSS</p>
+              <p className="text-gray-800 py-1">Laravel 8 Framework PHP</p>
+              <p className="text-gray-800 py-1">Dan Database MYSQL Framework SQL</p>
             </div>
           </div>
         </section>
@@ -151,7 +153,7 @@ function App() {
 
             <div data-aos="zoom-in" className="leading-8">
               <h3 className="text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28 ">Hasil Project Website Statis</h3>
-              <p className="dark:text-slate-200">Selain itu saya sangat suka bermain dan membuat project web statis menggunakan React JS dengan bantuan framework Tailwind-CSS.</p>
+              <p className="dark:text-slate-200">Dan selain itu, berikut adalah hasil project-project dasar belajar saya, dari web statis maupun web yang interaktif yang menggunakan database langsung.</p>
             </div>
 
             <div className="lg:basis-1/3 lg:my-36">
@@ -192,8 +194,7 @@ function App() {
               <img src={sneakers} alt="sneakers" />
               <div className="p-5">
                 <p className="h-32 overflow-auto">
-                  Contoh web company profile <span className="text-teal-500">Toko online</span> sepatu yang dibuat menggunakan Tailwindcss full Responsiv Mobile, Tab dan Desktop dan kelebihan CRUD menggunakan PHP Native dan dengan database
-                  MYSQL dengan tambahan Dark mode dan Light mode{" "}
+                  Contoh web company profile <span className="text-teal-500">Toko online</span> sepatu yang dibuat menggunakan Tailwindcss full Responsiv Mobile
                 </p>
               </div>
               <div className="mt-3 ">
@@ -264,7 +265,7 @@ function App() {
 
             <div data-aos="zoom-in" className="leading-8">
               <h3 className="text-3xl text-teal-500 py-1 md:text-center mt-28  lg:text-center">Manipulasi Photoshop</h3>
-              <p className="dark:text-slate-200">Selain itu saya sangat suka bermain dengan memanipulasi gambar-gambar yang bersifat random atau fantasy.</p>
+              <p className="dark:text-slate-200">Dan selain itu juga saya sangat suka bermain dengan memanipulasi gambar-gambar yang bersifat random atau fantasy.</p>
             </div>
 
             <div className="lg:basis-1/3 lg:my-36">
