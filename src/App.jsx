@@ -48,7 +48,7 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:opacity-80 ease-in-out duration-300"
-                  href="https://drive.google.com/file/d/1i7umOyQnsjMkYiDz1zRiw41Hvy9e3-68/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1xMLWD8_qS31kEATcSMuKXNWJ-sPUH9fh/view"
                   target="_blank"
                 >
                   Resume
