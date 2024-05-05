@@ -21,6 +21,7 @@ import kasir from "./kasir.png";
 import goblog from "./goblog.png";
 import livewire from "./livewire.png";
 import cruddasar from "./cruddasar.png";
+import stokbarang from "./stokbarang.jpeg";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -87,7 +88,7 @@ function App() {
             </div>
 
             <div data-aos="flip-left" className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden hover:scale-105 ease-in-out duration-300 md:w-96 md:h-96 lg:-my-1 lg:-mx-5 ">
-              <img src={pp} layout="fill" objectFit="cover" className="pt-10 pl-10 md:pl-16 md:pt-24 hover:scale-110 ease-in-out duration-300" />
+              <img src={pp} layout="fill" objectFit="cover" className=" pt-10 pl-10 md:pl-16 md:pt-24 hover:scale-110 ease-in-out duration-300"  />
             </div>
           </div>
         </section>
@@ -242,6 +243,19 @@ function App() {
               </div>
               <div className="mt-3">
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out relative right-3 duration-300" href="https://herland004.000webhostapp.com/pegawai" target={"_blank"}>
+                  Selengkapnya Klik disini
+                </a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-right" className="grid gap-2 shadow-lg rounded-xl overflow-hidden  hover:scale-110 duration-300 ease-in-out cursor-pointer dark:bg-slate-100">
+              <img src={stokbarang} alt="kasir" />
+              <div className="p-5">
+                <p className="h-32 overflow-auto">
+                  Contoh Aplikasi <span className="text-teal-500">Stok Barang</span> dasar yang dibuat menggunakan PHP & MYSQL + Bootstrap 5
+                </p>
+              </div>
+              <div className="mt-3">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md  hover:opacity-80 ease-in-out relative right-3 duration-300" href="https://stokbarang002.000webhostapp.com/login.php" target={"_blank"}>
                   Selengkapnya Klik disini
                 </a>
               </div>
