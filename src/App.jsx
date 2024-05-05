@@ -154,7 +154,7 @@ function App() {
             </div>
 
             <div data-aos="zoom-in" className="leading-8">
-              <h3 className="text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28 ">Hasil Project Website Statis</h3>
+              <h3 className="text-3xl text-teal-500 py-1 md:text-center lg:text-center mt-28 ">Hasil Project Website Statis Dan Dinamis</h3>
               <p className="dark:text-slate-200">Dan selain itu, berikut adalah hasil project-project dasar belajar saya, dari web statis maupun web yang interaktif yang menggunakan database langsung.</p>
             </div>
 
